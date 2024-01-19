@@ -8,7 +8,7 @@ resource "aws_instance" "tf-my-ec2" {
   availability_zone = "us-east-1b"
   tags = {
     "Name" = "Web-Server"
-    "env" = "QA"
+    #"env" = "QA"
   }
   # It will pick up the default VPC
 }
