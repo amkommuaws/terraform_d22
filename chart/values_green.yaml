@@ -1,0 +1,6 @@
+name: cart-microservice
+image: 
+  name: devopswithcloudhub/nginx
+  tag: green
+replicas:
+  default: 2
